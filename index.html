@@ -13,25 +13,25 @@
 			}
 			body {
 				background: rgb(30, 30, 30);
-				color: #ffffff;
 				font-family: sans-serif;
 			}
 			#main_container {
 				height: 100%;
 				width: 100%;
 			}
-			.maroon_strip {
-				background: rgb(40, 19, 19);
-				width: 100%;
-			}
 			#main_box {
+				background: rgb(172, 172, 172);
 				margin: auto;
 				max-width: 99%;
+				outline: 10px double rgb(172, 172, 172);
 				padding: 20px;
 				width: 800px;
 			}
 			h1 {
 				text-align: center;
+			}
+			a, a:link, a:visited {
+				color: #000000;
 			}
 		</style>
 	</head>
@@ -39,14 +39,13 @@
 	<body>
 		<div id="main_container">
 			<br> <br>
-			<div class="maroon_strip">
-				<div id="main_box">
-					<h1> INDEX </h1>
-					<hr> <br>
-					<ul>
-						<li> <a href="./red-black-tree/red-black-tree.html">RBTree</a>
-					</ul>
-				</div>
+			<div id="main_box">
+				<h1> INDEX </h1>
+				<hr> <br>
+				Projects hosted:
+				<ul>
+					<li> <a href="./red-black-tree/red-black-tree.html">Red Black Tree</a>: Animated "app" that shows operations performed on Red Black Tree data structure - A special kind of tree that prevents imbalance among branches and maintains a search time complexity of log(n). (TIP: Start by clicking the Randomize button).
+				</ul>
 			</div>
 		</div>
 	</body>
