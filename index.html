@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset='UTF-8'>
@@ -6,7 +6,9 @@
 		<title> Hosted Repository </title>
 		<style type="text/css">
 			body, html {
+				font-family: sans-serif;
 				height: 100%;
+				line-height: 1.5em;
 				margin: 0;
 				padding: 0;
 				width: 100%;
@@ -22,12 +24,14 @@
 			#main_box {
 				background: rgb(172, 172, 172);
 				margin: auto;
-				max-width: 99%;
+				max-width: 800px;
 				outline: 10px double rgb(172, 172, 172);
 				padding: 20px;
-				width: 800px;
+				text-align: justify;
+				width: 83%;
 			}
 			h1 {
+				font-variant: small-caps;
 				text-align: center;
 			}
 			a, a:link, a:visited {
@@ -39,13 +43,15 @@
 	<body>
 		<div id="main_container">
 			<br> <br>
-			<div id="main_box">
-				<h1> INDEX </h1>
-				<hr> <br>
-				Projects hosted:
-				<ul>
-					<li> <a href="./red-black-tree/red-black-tree.html">Red Black Tree</a>: Animated "app" that shows operations performed on Red Black Tree data structure - A special kind of tree that prevents imbalance among branches and maintains a search time complexity of log(n). (TIP: Start by clicking the Randomize button).
-				</ul>
+			<div id="sub_container">
+				<div id="main_box">
+					<h1> Index </h1>
+					<hr> <br>
+					Projects hosted:
+					<ul>
+						<li> <a href="./red-black-tree/red-black-tree.html">Red Black Tree</a>: Animated "app" that shows operations performed on Red Black Tree data structure - A special kind of tree that prevents imbalance among branches and maintains a search time complexity of log(n). (<b>TIP:</b> Start with the Randomize button).
+					</ul>
+				</div>
 			</div>
 		</div>
 	</body>
